@@ -1,0 +1,5 @@
+# print('Conversor de mts, cm e milimetros')
+mts = float(input('Digite a medida em metros a ser convertida:'))
+cm = float(mts * 100)
+mm = float(mts * 1000)
+print('Centimetros: {} cm, e em milimetros {} mm'.format(cm, mm))

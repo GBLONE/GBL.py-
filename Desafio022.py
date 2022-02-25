@@ -1,0 +1,7 @@
+frase = str(input('Digite seu nome completo:')).strip()
+print('<<<ANALISANDO SEU NOME>>>')
+print('Seu nome em Maiúsculo:', f'{frase.upper()}')
+print('Seu nome em Minúsculos:', f'{frase.lower()}')
+y = (frase.split())
+print('Números de letras no seu nome:', f'{len("".join(y))}')
+print('Números de letras do seu primeiro nome:', f'{len(y[0])}')
